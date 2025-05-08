@@ -15,10 +15,10 @@
   
   /* Definir estilos para a tag DIV */
   div {
-    background-color: red; /* Definir cor de fundo vermelha */
+    background-color: #001940; /* Definir cor de fundo vermelha */
     padding: 32px; /* Adicionar espaçamento interno de 32px */
     font-family: Arial;
-  
+    color: whitesmoke;
     max-width: 400px; /* Definir largura máxima de 400px */
     border-radius: 32px; /* Arredondar os cantos com raio de 32px */
   }
@@ -30,13 +30,17 @@
   
   label {
     font-weight: bold; /* Deixar o texto em negrito */
+    color: whitesmoke;
   }
   
   button {
-    background-color: green;
+    background-color: #3a3c30;
     margin-top: 20px; /* Adicionar margem superior de 20px */
     padding: 32px; /* Adicionar espaçamento interno de 32px */
+    color: whitesmoke;
+    border-radius: 100px;
   }
+
   
   button:hover {
     background-color: yellow; /* Alterar cor de fundo para amarelo ao passar o mouse */
@@ -45,8 +49,8 @@
     border-radius: 100px; /* Arredondar os cantos com raio de 100px ao passar o mouse */
   } 
   a {
-    background-color: orange; /* Alterar cor de fundo para amarelo ao passar o mouse */
-    color: purple; /* Alterar cor do texto para laranja ao passar o mouse */
+    background-color: #5a6afc; /* Alterar cor de fundo para amarelo ao passar o mouse */
+    color: whitesmoke; /* Alterar cor do texto para laranja ao passar o mouse */
     font-weight: bold; /* Deixar o texto em negrito ao passar o mouse */
     border-radius: 100px; /* Arredondar os cantos com raio de 100px ao passar o mouse */
     padding: 22px;
